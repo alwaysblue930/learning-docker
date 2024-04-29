@@ -10,8 +10,6 @@ services:
       dockerfile: Dockerfile.prod
     environment:
       - MONGO_URI=${MONGO_URI}
-    deploy:
-      replicas: 3
 
   nginx:
     build:
