@@ -14,7 +14,7 @@ export default function Root() {
   return (
     <>
       <h1>Hello World</h1>
-      <button onClick={handleClick}>Send api request!</button>
+      <button onClick={handleClick}>Send api request!!</button>
       <p>{test}</p>
       <Link to="/contacts">Go to contacts</Link>
     </>
